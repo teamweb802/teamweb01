@@ -1,0 +1,11 @@
+<svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect y=".98" width="40" height="40" rx="20" fill="#949494"/>
+    <g clip-path="url(#wbav24soza)">
+        <path d="M30 20.98c0-5.522-4.477-10-10-10s-10 4.478-10 10c0 4.992 3.657 9.129 8.438 9.879v-6.988h-2.54v-2.89h2.54v-2.204c0-2.506 1.492-3.89 3.777-3.89 1.093 0 2.238.195 2.238.195v2.461h-1.26c-1.243 0-1.63.77-1.63 1.563v1.874h2.773l-.443 2.891h-2.33v6.988c4.78-.75 8.437-4.887 8.437-9.879z" fill="#fff"/>
+    </g>
+    <defs>
+        <clipPath id="wbav24soza">
+            <path fill="#fff" transform="translate(10 10.98)" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+</svg>
