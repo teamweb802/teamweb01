@@ -313,8 +313,3 @@ docker run -p 8184:8184 tour-incheon:1.0
 * 사용자 편의 기능 추가
 
 \---
-
-### 테스트
-![main](gif/main_1.gif)
-![admin](gif/admin_1.gif)
-![review](gif/review_1.gif)
