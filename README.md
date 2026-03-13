@@ -257,48 +257,40 @@ docker run -p 8184:8184 tour-incheon:1.0
 
 \---
 
-## 12\. 주요 기능 시연
+## 12. 주요 기능 시연
 
 > 아래 GIF 파일은 `README.md`와 동일한 위치의 `gif/` 폴더를 기준으로 호출됩니다.
 
 ### 12-1. 메인 화면
-
-<img src="gif/main\_1.gif" width="900">
-<img src="gif/main\_2.gif" width="900">
-<img src="gif/main\_3.gif" width="900">
-<img src="gif/main\_4.gif" width="900">
-<img src="gif/main\_5.gif" width="900">
+<img src="gif/main1.gif" width="900">
+<img src="gif/main2.gif" width="900">
+<img src="gif/main3.gif" width="900">
+<img src="gif/main4.gif" width="900">
+<img src="gif/main5.gif" width="900">
 
 ### 12-2. 비회원 접근 화면
-
-<img src="gif/not\_login.gif" width="900">
+<img src="gif/notlogin.gif" width="900">
 
 ### 12-3. 회원가입
-
 <img src="gif/join.gif" width="900">
 
 ### 12-4. 로그인
-
 <img src="gif/login.gif" width="900">
 
 ### 12-5. 마이페이지
-
-<img src="gif/mypage\_1.gif" width="900">
+<img src="gif/mypage1.gif" width="900">
 
 ### 12-6. 리뷰 게시판 기능
-
-<img src="gif/review\_1.gif" width="900">
-<img src="gif/review\_2.gif" width="900">
+<img src="gif/review1.gif" width="900">
+<img src="gif/review2.gif" width="900">
 
 ### 12-7. 관리자 기능
-
-<img src="gif/admin\_1.gif" width="900">
-<img src="gif/admin\_2.gif" width="900">
-<img src="gif/admin\_3.gif" width="900">
+<img src="gif/admin1.gif" width="900">
+<img src="gif/admin2.gif" width="900">
+<img src="gif/admin3.gif" width="900">
 
 ### 12-8. 관광/서브 페이지
-
-<img src="gif/sub\_1.gif" width="900">
+<img src="gif/sub1.gif" width="900">
 
 \---
 
@@ -322,3 +314,7 @@ docker run -p 8184:8184 tour-incheon:1.0
 
 \---
 
+### 테스트
+![main](gif/main_1.gif)
+![admin](gif/admin_1.gif)
+![review](gif/review_1.gif)
