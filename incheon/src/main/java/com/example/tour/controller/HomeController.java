@@ -19,6 +19,6 @@ public class HomeController {
     public String home(Model model) {
         List<NoticeListDto> topNotices = noticeService.getTop4List();
         model.addAttribute("topNotices", topNotices);
-        return "/index";
+        return "index";
     }
 }
