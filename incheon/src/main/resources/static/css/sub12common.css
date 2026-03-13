@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+.contanier {
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+
+/* 현재 페이지 경로 */
+
+.content_location {
+    display: flex;
+    align-items: center;
+    background-color: #f3f4f6;
+    height: 45px;
+    align-items: center;
+}
+
+.content_location_inner {
+    width: 100%;
+    box-sizing: border-box;
+    justify-items: right;
+    padding-right: 60px;
+    align-items: center;
+}
+
+.content_location_inner ul {
+    display: flex;
+    gap : 15px;
+    list-style: none;              
+    padding-right: 100px;
+    margin: 0;
+    
+}
+
+.content_location_inner ul li a {
+    color: inherit
+}
+
+.content_location_inner ul span {
+    padding: auto;
+    padding-left: 8px;
+
+}
+
+
+
+
+
+
+.content_wrap {
+    gap: 50px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100vx;
+    height: auto;
+    justify-content: center;
+    
+}
+
+
+
+/* 서브 메뉴 */
+.snb {
+    display: block;
+    width: 220px;
+    height: 500px;
+}
+
+.div .snb_wrap{
+    display: block;
+    width: 100%;
+    height: 499px;
+}
+
+.snb_title_wrap {
+    display: block;
+    background-color: #2C2A6E;
+    height: 173px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snb_title {
+    font-family: "pretendard", sans-serif;
+    color: #fefefe;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.snb_nav_wrap {
+    display: block;
+    width: 100%;
+    height: 185px;
+    
+}
+
+.snb_nav {
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.depth2 {
+    list-style: none;
+
+}
+
+.depth2 li {
+    border-bottom: 1px solid #ccc;
+}
+
+
+.depth2 a {
+    display: block;
+    text-decoration: none;
+    font-family: "pretendard", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    padding: 15px 20px;
+    padding-left: 0px;
+    
+}
+
+.depth2 a:hover {
+    color: #0080ff;
+    text-decoration: underline;
+}
+
+.depth2 .sec_child {
+    text-decoration: underline;
+}
+
+
+/* 메인컨텐츠 */
+
+
+
+.content {
+    display: block;
+    width: 920px;
+}
+
+.content_head {
+    display: block;
+}
+
+.content_title_wrap {
+    display: flex;
+    border-bottom: 4px solid #333;
+    
+}
+
+
+.content_title {
+    font-family: "pretendard";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.section4_head h4 {
+    font-family: "pretendard";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.section4_head {
+    border-bottom: 1px solid #000000;
+}
+
+.section4_head ::before {
+    content: '';           
+    display: inline-block;
+    width: 30px;            
+    height: 20px;           
+    background-image: url('./image/titleafter.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;      /* 글자와의 간격 */
+}
+
+
+.txt_wrap p {
+    font-family: "pretendard" sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.1;
+    line-height: 1.3;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.layout_cols {
+    box-sizing: border-box;
+    display: flex;
+    gap : 15px;
+    padding-bottom: 10px;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.layout_cols .col img{
+    display: flex;
+    
+}
+
+.colspan1 .txt_wrap  p {
+    font-family: "Pretendard" sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #007DC4;
+    padding-left: 10px;
+}
+
+.colspan2 .txt_wrap  p {
+    font-family: "Pretendard" sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #F58B3C;
+}
+
+.colspan3 .txt_wrap  p {
+    font-family: "Pretendard" sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #39B4E7;
+}
+
+.colspan4 .txt_wrap  p {
+    font-family: "Pretendard" sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ED1450;
+    padding-left: 30px;
+}
+
+
+.btn_wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.btn{
+    width: 300px;
+    height: 100%;
+    background-color: #2C2A6E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn span {
+    font-family: "Pretendard" sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+
+
+
+/* 메인컨텐츠 푸터 */
+
+.content_license {
+    margin: 30px;
+}
+
+.license_img_wrap  {
+    border: 1px solid #a9a9a9;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.license_title {
+    display: flex;
+    font-family: "pretendard" sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-top {
+  position: fixed;    
+  bottom: 30px;       
+  right: 30px;        
+  width: 50px;        
+  height: 50px;       
+  background-color: #000000; 
+  color: #fff;        
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 999;       
+  transition: 0.3s;   
+}
+
+.btn-top:hover {
+  background-color: #004288;
+}

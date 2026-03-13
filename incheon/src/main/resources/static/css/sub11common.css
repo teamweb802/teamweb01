@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+.contanier {
+    display: block;
+    padding-bottom: 10px;
+}
+
+/* 현재 페이지 경로 */
+
+.content_location {
+    display: flex;
+    align-items: center;
+    background-color: #f3f4f6;
+    height: 45px;
+    align-items: center;
+}
+
+.content_location_inner {
+    width: 100%;
+    box-sizing: border-box;
+    justify-items: right;
+    padding-right: 60px;
+    align-items: center;
+}
+
+
+.content_location_inner ul {
+    display: flex;
+    gap : 15px;
+    list-style: none;              
+    padding-right: 100px;
+    margin: 0;
+    
+}
+
+.content_location_inner ul li a {
+    color: inherit
+}
+
+.content_location_inner ul span {
+    padding: auto;
+    padding-left: 8px;
+
+}
+
+
+
+
+
+
+.content_wrap {
+    gap: 50px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100vx;
+    height: auto;
+    justify-content: center;
+    
+}
+
+
+/* 서브 메뉴 */
+.snb {
+    display: block;
+    width: 220px;
+    height: 500px;
+}
+
+.div .snb_wrap{
+    display: block;
+    width: 100%;
+    height: 499px;
+}
+
+.snb_title_wrap {
+    display: block;
+    background-color: #2C2A6E;
+    height: 173px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snb_title {
+    font-family: "pretendard", sans-serif;
+    color: #fefefe;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.snb_nav_wrap {
+    display: block;
+    width: 100%;
+    height: 185px;
+    
+}
+
+.snb_nav {
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.depth2 {
+    list-style: none;
+
+}
+
+.depth2 li {
+    border-bottom: 1px solid #ccc;
+}
+
+
+.depth2 a {
+    display: block;
+    text-decoration: none;
+    font-family: "pretendard", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    padding: 15px 20px;
+    padding-left: 0px;
+    
+}
+
+.depth2 .fst_child {
+    text-decoration: underline;
+}
+
+.depth2 a:hover {
+    color: #0080ff;
+    text-decoration: underline;
+}
+
+
+
+/* 메인컨텐츠 */
+
+
+
+.content {
+    display: block;
+    width: 920px;
+}
+
+.content_head {
+    display: block;
+    
+}
+
+.content_title_wrap {
+    display: flex;
+    border-bottom: 4px solid #333;
+    
+}
+
+.content_title {
+    font-family: "pretendard";
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.tab_nav_tabs4 {
+    background-color: #ffffff;
+    padding-top: 45px;
+}
+
+.tab_nav_tabs4 ul {
+    font-family: "pretendard" sans-serif;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 1.125rem;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.tab_nav_tabs4 ul li {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+}
+
+.tab_nav_tabs4 ul li a {
+    text-decoration: none;
+}
+
+.tab_nav_tabs4 a {
+    color: #464646;
+}
+
+.tab_nav_tabs4 .is_selected {
+    font-family: "pretendard" sans-serif;
+    border: 1px solid #333;
+    background-color: #6b6b6b;
+    
+}
+
+.tab_nav_tabs4 .is_selected span {
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: underline;    
+}
+
+
+.content_body {
+    font-family: "pretendard" sans-serif;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 500px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+
+
+.post_content .sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post_content .sec4 img
+ {
+    width: 120%;
+    padding-bottom: 10px;
+ }
+
+
+
+/* 메인컨텐츠 푸터 */
+
+.content_license {
+    margin: 30px;
+}
+
+.license_img_wrap  {
+    border: 1px solid #a9a9a9;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.license_title {
+    display: flex;
+    font-family: "pretendard" sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-top {
+  position: fixed;    
+  bottom: 30px;       
+  right: 30px;        
+  width: 50px;        
+  height: 50px;       
+  background-color: #000000; 
+  color: #fff;        
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 999;       
+  transition: 0.3s;   
+}
+
+.btn-top:hover {
+  background-color: #004288;
+}
